@@ -1,0 +1,188 @@
+/* CSS Document */
+
+
+
+ A:link {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:hover {
+	text-decoration: none;
+	color: #FFF;}
+
+ A:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+ A:active {
+	text-decoration: none;
+	color: #FFF;}
+A:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+#page_container{
+    height: 100%;
+    margin: 60px auto auto;
+    display: table;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin-top: 60px;
+	
+	width: 85% !important;
+}
+
+
+
+#main_container{
+	width: 98%;	
+	 margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; 
+
+		/*Mmin-width: 800px; */
+		    display: contents;
+
+}
+
+
+
+
+
+
+
+
+
+.main_post_wrap{
+	width: 100%;	
+	/*min-height:300px; */
+	/*min-width: 200px;*/
+/*	height: 400px;*/
+	/*max-height: 600px;*/
+	/*float: left;*/
+	box-sizing: border-box;
+    border: 1px solid rgba(193,213,212,1.00);
+    border-radius: 5px;
+	
+	
+	margin: 2%;
+	overflow: hidden;
+	cursor: pointer;
+	display: contents;
+}
+
+.main_post_top{
+	width: 100%;	
+/*	height: 80%;*/
+}
+
+.main_post_top_photo_area{
+	width: 100%;	
+	/*height: 70%;*/
+	display: block;
+}
+
+.main_post_top_title_area{
+	width: 100%;	
+	/*height: 30%;*/
+	display: block;
+}
+
+.main_image{
+	object-fit: cover;
+	width: 100%;	
+	/*	height: 100%;*/
+	
+}
+.main_image:hover {opacity: 0.7;}
+
+
+
+.post_title_text{
+	font-size: 18px;
+	width: 100%;	
+/*	height: 100%;*/
+	text-align:center;
+	font-weight: 300;
+}
+.main_post_bottom{
+	width: 100%;	
+/*	height: 20%;*/
+	background: rgba(193,213,212,1.00);
+
+		display: block;
+
+}
+
+.main_post_bottom_price_area{
+	width: 95%;	
+/*	height: 95%;*/
+	margin: auto;
+}
+
+.post_cost_text{
+	font-size: 28px;
+	width: 100%;	
+/*	height: 100%;*/
+	text-align:left;
+	padding: 2%;
+	font-weight: 600;
+}
+
+
+
+#grid_container{
+	width:100%;
+	margin:0px auto;
+/*/	border:#999 1px dashed;/*/
+	
+
+}
+
+
+div#grid_container{
+	width:100%;
+	margin:0px auto;
+	height:100%;
+/*/	border:#999 1px dashed;/*/
+}
+div#grid_container > div{
+	position:absolute;
+	/*/width: 250px;/*/
+    border: 1px solid rgba(193,213,212,1.00);
+    border-radius: 5px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+div#grid_container > div:nth-child(2n+0) {
+	background: rgba(255,255,255,1.00); /* For browsers that do not support gradients */
+}
+div#grid_container > div:nth-child(2n+1) {
+	background: rgba(255,255,255,1.00); /* For browsers that do not support gradients */
+}
+div#grid_container > div > div{ padding: auto; font-size: 27px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
